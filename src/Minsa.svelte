@@ -15,7 +15,7 @@
 	import { push } from "svelte-spa-router";
 </script>
 
-<div class="app" id="japp">
+<div class="appiminsa" id="japp">
         <div class="aContainer">
             <div class="text-center">
                 <img src="minsa/logo-minsa-opt.jpg" alt="Logo Minsa" width="220" style="max-width: 15rem; width: 100%; border: #fff solid 1px">
