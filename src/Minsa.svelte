@@ -13,6 +13,7 @@
 
 <script>
 	import { push } from "svelte-spa-router";
+    export let params;
 </script>
 
 <div class="appiminsa" style="background-color: #ffffff;">
@@ -26,13 +27,13 @@
             <div class="text-center" style="padding:2rem 0.5rem">      
                 <div><img src="minsa/comprobado.png"></div>
                 <div style="font-size:1.2rem; padding:0.5rem; background: rgba(255,255,255, 0.7); line-height: 2rem; color: #1f484a;">
-                    <div>FERNANDEZ CARRERA FRANCISCO JAVIER</div>
-                    <div> <b>DNI</b> 44XXXX04</div>
-                    <div style="color:#3e8d5e"><b>CON TERCERA DOSIS *</b></div>
+                    <div>{params.nombre.toUpperCase()}</div>
+                    <div> <b>DNI</b> {params.dnii}XXXX{params.dnif}</div>
+                    <div style="color:#3e8d5e"><b>CON PRIMER REFUERZO *</b></div>
                 </div>
             </div>
             <div style="padding: 0.7rem 0 0.5rem; text-align: center;">
-                <div style="font-size: 1rem;padding:0.5rem;background: rgba(255,255,255, 0.7);">* Persona con tres dosis de vacuna contra COVID 19</div>    
+                <div style="font-size: 1rem;padding:0.5rem;background: rgba(255,255,255, 0.7);">* Persona con dos dosis + la primera dosis de refuerzo de vacuna contra COVID 19</div>    
             </div>   
             <hr class="aLine1">
             <div class="text-center" style="color:#6c6c6c">

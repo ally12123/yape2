@@ -13,7 +13,7 @@
 		'/Camara/': Camara,
 		'/Yapear/': Yapear,
 		'/Yapeado/': Yapeado,
-		'/Minsa/': Minsa,
+		'/Minsa/:dnii/:dnif/:nombre': Minsa,
     	'*': Login
 	};
 
