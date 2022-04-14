@@ -5,6 +5,7 @@
 	import Camara from './Camara.svelte';
 	import Yapear from './Yapear.svelte';
 	import Yapeado from './Yapeado.svelte';
+	import Minsa from './Minsa.svelte';
 
 	const routes = {
 		'/': Login,
@@ -12,6 +13,7 @@
 		'/Camara/': Camara,
 		'/Yapear/': Yapear,
 		'/Yapeado/': Yapeado,
+		'/Minsa/': Minsa,
     	'*': Login
 	};
 
