@@ -1,7 +1,7 @@
 <svelte:head>
-    <meta name="Apple-mobile-web-app-status-bar-style" content="#742284">
-	<meta name="theme-color" content="#742284">
-	<meta name="msapplication-TileColor" content="#742284">
+    <meta name="Apple-mobile-web-app-status-bar-style" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="msapplication-TileColor" content="#ffffff">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Puedes verificar la aplicación de tu vacuna contra el coronavirus u otras que hayas recibido recientemente en el Carné de vacunación web del Ministerio de Salud. Aquí, está registrada la fecha y lugar donde se te inmunizó, además del tipo de vacuna que recibiste, el fabricante de la vacuna y el número de lote.">
@@ -15,7 +15,7 @@
 	import { push } from "svelte-spa-router";
 </script>
 
-<div class="appiminsa">
+<div class="appiminsa" style="background-color: #ffffff;">
         <div class="aContainer">
             <div class="text-center">
                 <img src="minsa/logo-minsa-opt.jpg" alt="Logo Minsa" width="220" style="max-width: 15rem; width: 100%; border: #fff solid 1px">
