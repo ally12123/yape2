@@ -3,25 +3,17 @@
 	<meta name="theme-color" content="#742284">
 	<meta name="msapplication-TileColor" content="#742284">
     <script async="" src="minsa/js"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-5SG0KRSQDH');
-    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Puedes verificar la aplicación de tu vacuna contra el coronavirus u otras que hayas recibido recientemente en el Carné de vacunación web del Ministerio de Salud. Aquí, está registrada la fecha y lugar donde se te inmunizó, además del tipo de vacuna que recibiste, el fabricante de la vacuna y el número de lote.">
     <meta name="keywords" content="Carnet Vacunas, Minsa, Covid19">
     <meta name="author" content="Minsa Perú">
-    <meta http-equiv="Expires" content="0">
-    <meta http-equiv="Last-Modified" content="0">
-    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
-    <meta http-equiv="Pragma" content="no-cache">
     <title>MINSA - Carnet Vacunación</title>
-    <meta name="msapplication-TileColor" content="#b7e3e4">
-    <meta name="theme-color" content="#b7e3e4">
     <link id="app-template" rel="stylesheet" href="minsa/app20211210.min.css">
 </svelte:head>
+
+<script>
+	import { push } from "svelte-spa-router";
+</script>
 
 <div class="app" id="japp">
         <div class="aContainer">
